@@ -12,9 +12,9 @@
     {% endblock %}
 </head>
 <body ontouchstart>
-    {% block loader %}
+    {# {% block loader %}
         {% include './_partial/common/loader.swig' %}
-    {% endblock %}
+    {% endblock %} #}
 
     <div id="page" class="page js-hidden">
         {% block header %}

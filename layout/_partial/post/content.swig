@@ -1,7 +1,9 @@
 <article class="page__post">
-    <div class="post__cover">
-        <img src="{{ page.cover|default(get_setting('default_cover')) }}" alt="{{ page.title }}">
-    </div>
+    {# 注释文章顶部图片
+        <div class="post__cover">
+            <img src="{{ page.cover|default(get_setting('default_cover')) }}" alt="{{ page.title }}">
+        </div>
+    #}
 
     <header class="post__info">
         <h1 class="post__title">{{ page.title }}</h1>
